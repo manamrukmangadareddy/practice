@@ -1,2 +1,16 @@
+
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
+C
 this is practice with git commands
 
