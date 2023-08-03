@@ -1,0 +1,13 @@
+ttps://www.edx.org/course/introduction-to-kubernetes
+https://www.kubernetesbyexample.com/
+https://play.instruqt.com/public/topics/getting-started-with-kubernetes
+https://www.katacoda.com/courses/kubernetes
+https://collabnix.github.io/kubelabs/
+
+
+
+terraform
+
+https://drive.google.com/drive/folders/1GhcXYuHd72K0uXscjqVnQ3ltNqJWZV2N
+
+
