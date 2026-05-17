@@ -7,11 +7,31 @@
     body {
       font-family: Arial, sans-serif;
       text-align: center;
-      margin-top: 100px;
+      margin: 40px;
+      line-height: 1.6;
+      background: #fff0f5; /* light romantic background */
     }
     h1 {
       color: red;
       font-size: 3em;
+      animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+    .content {
+      margin-top: 30px;
+      text-align: left;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      white-space: pre-line;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255,0,0,0.2);
     }
     input[type="text"] {
       padding: 10px;
@@ -24,11 +44,36 @@
       font-size: 1em;
       margin-top: 10px;
       cursor: pointer;
+      border-radius: 5px;
+      border: none;
+    }
+    #output {
+      margin-top: 20px;
+      font-weight: bold;
+      color: darkblue;
+    }
+    .question {
+      margin-top: 40px;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+    .options button {
+      margin: 10px;
+      background-color: pink;
     }
   </style>
 </head>
 <body>
   <h1>I ❤️ YOU PRIYA</h1>
+
+  <div class="content">
+    <!-- Your long romantic text goes here -->
+    Youre resistance is like gravity. Nee vyapukee gunjesthundii....
+    Ninnu chudage nachavv..
+    ...
+    (continue with your heartfelt content)
+  </div>
+
   <p>Enter your response below:</p>
   <input type="text" id="responseBox" placeholder="Type your reply here...">
   <br>
@@ -36,12 +81,27 @@
 
   <p id="output"></p>
 
+  <div class="question">
+    Do you love me? 💖
+    <div class="options">
+      <button onclick="loveYes()">Yes</button>
+      <button onclick="loveNo()">No</button>
+    </div>
+  </div>
+
   <script>
     function showResponse() {
       const response = document.getElementById("responseBox").value;
       document.getElementById("output").innerText = "You replied: " + response;
     }
+
+    function loveYes() {
+      alert("Love you toooo Priyaaa-Pellama-Madam 💕");
+    }
+
+    function loveNo() {
+      alert("Oh nooo 😢 But I’ll keep loving you anyway!");
+    }
   </script>
 </body>
 </html>
-  
